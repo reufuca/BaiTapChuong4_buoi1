@@ -88,5 +88,10 @@ namespace Chuong4_part1
         {
             this.Close();
         }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textsoA = new System.Windows.Forms.TextBox();
@@ -41,6 +42,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -66,9 +69,11 @@
             // textsoA
             // 
             this.textsoA.Location = new System.Drawing.Point(227, 32);
+            this.textsoA.Multiline = true;
             this.textsoA.Name = "textsoA";
             this.textsoA.Size = new System.Drawing.Size(165, 22);
             this.textsoA.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.textsoA, "Nhập số nguyên");
             this.textsoA.TextChanged += new System.EventHandler(this.textsoA_TextChanged);
             this.textsoA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textsoA_KeyPress);
             // 
@@ -78,6 +83,7 @@
             this.textsoB.Name = "textsoB";
             this.textsoB.Size = new System.Drawing.Size(165, 22);
             this.textsoB.TabIndex = 1;
+            this.toolTip2.SetToolTip(this.textsoB, "Nhập số nguyên");
             this.textsoB.TextChanged += new System.EventHandler(this.textsoA_TextChanged);
             this.textsoB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textsoB_KeyPress);
             // 
@@ -85,7 +91,7 @@
             // 
             this.btnThoat.Location = new System.Drawing.Point(420, 206);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 23);
+            this.btnThoat.Size = new System.Drawing.Size(75, 30);
             this.btnThoat.TabIndex = 2;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -129,7 +135,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(92, 206);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 23);
+            this.button1.Size = new System.Drawing.Size(129, 30);
             this.button1.TabIndex = 7;
             this.button1.Text = "Tính tổng";
             this.button1.UseVisualStyleBackColor = true;
@@ -139,7 +145,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(263, 206);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 23);
+            this.button2.Size = new System.Drawing.Size(129, 30);
             this.button2.TabIndex = 7;
             this.button2.Text = "Làm lại";
             this.button2.UseVisualStyleBackColor = true;
@@ -164,6 +170,15 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "đến";
             this.label4.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // toolTip1
+            // 
+            this.toolTip1.ToolTipTitle = "Nhập số nguyên";
+            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
+            // 
+            // toolTip2
+            // 
+            this.toolTip2.ToolTipTitle = "Nhập số nguyên";
             // 
             // TongDaySo
             // 
@@ -205,5 +220,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip2;
     }
 }
