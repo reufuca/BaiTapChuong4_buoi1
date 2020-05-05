@@ -1,0 +1,13 @@
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\bin\Debug\Chuong4_part1.exe.config
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\bin\Debug\Chuong4_part1.exe
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\bin\Debug\Chuong4_part1.pdb
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.csprojAssemblyReference.cache
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.Properties.Resources.resources
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.csproj.GenerateResource.cache
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.csproj.CoreCompileInputs.cache
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.exe
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.pdb
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.FrmChaoMung.resources
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.TinhTong.resources
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.FrmMain.resources
+E:\Stdyng\y2\part2\CSLT2\Chuong4_part1\obj\Debug\Chuong4_part1.TongDaySo.resources
